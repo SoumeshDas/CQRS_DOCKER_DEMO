@@ -1,0 +1,23 @@
+21 / Add Rabitt Row Package..
+Using Visual Studio 2017 use commands mentioned in the rabbit row user guide 
+but I think the below commands are also work fine
+1. dotnet add package RawRabbit 
+2. dotnet add package RawRabbit.vNext
+
+.. it does not work that version of dll do not have the SubScribeAsync installed
+
+
+22/ Asp net core package commands are below
+1.dotnet add package microsoft.aspnetcore 
+2.dotnet add package microsoft.aspnetcore.Hosting
+
+//have difficulities to understand the ddl parts of raw rabbit mq
+you have to specific about the versions .There are lot of missmanagement about the scripts
+// we are using the beta version 8
+below are the commands to be excuted by the package manager
+1.Install-Package RawRabbit -Version 2.0.0-beta8
+2.Install-Package RawRabbit.DependencyInjection.ServiceCollection -Version 2.0.0-beta8
+3.Install-Package RawRabbit.Operations.Publish -Version 2.0.0-beta8
+4.Install-Package RawRabbit.Operations.Subscribe -Version 2.0.0-beta5
+
+
